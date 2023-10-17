@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Maharaja's Furniture</title>
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/responsive.css">	
+	<link rel="stylesheet" href="css/ddsmoothmenu.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="py-3 shadow">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3 col-6">
+					<div class="logo">
+						<img src="img/logo.png" class="img-fluid" alt="logo">
+					</div>
+				</div>
+				<div class="col-md-2 col-6 pl-3  ml-auto">
+					<div class="cart d-inline-block">
+						<a href="" class="mx-md-5 mx-2 crt">
+							<img src="img/cart.png" alt="">
+						</a>
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<li><a href="">Home</a></li>
+								<li><a href="">About </a></li>
+								<li><a href="">Product</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="user">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-lg-3">
+					<ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-user"></i>&nbsp; User profile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-file"></i>&nbsp; My order page</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-star"></i>&nbsp; My Rating Page</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-shopping-cart"></i>&nbsp; Cart Page</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fab fa-cart-arrow-down"></i>&nbsp; Checkout page</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8 col-lg-9">
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active w-75" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<h3>Edit Profile</h3>
+							<div class="row profile">
+								<div class="col-md-12">
+									<div class="user-img">
+										<img src="img/user-img.png" class="img-fluid rounded-circle" width="120" height="120" alt="">
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<div class="user">
+										<input type="text" placeholder="First Name">
+										<img src="https://img.icons8.com/metro/18/b2b2b2/user-male.png" style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<div class="user">
+										<input type="text" placeholder="Last Name">
+										<img src="https://img.icons8.com/metro/18/b2b2b2/user-male.png" style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="user">
+										<input type="email" class="password" placeholder="Email Address">
+										<img src="https://img.icons8.com/material-sharp/18/b2b2b2/important-mail.png" style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="user">
+										<input type="number" class="password" placeholder="Phone Number">
+										<img src="https://img.icons8.com/fluent-systems-filled/18/b2b2b2/phone.png" style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<div class="user">
+										<input type="password" class="password" placeholder="Password">
+										<img src="https://img.icons8.com/metro/18/b2b2b2/lock.png"/ style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6">
+									<div class="user">
+										<input type="password" class="password" placeholder="Confirm Password">
+										<img src="https://img.icons8.com/metro/18/b2b2b2/lock.png"/ style="position: absolute;" class="position">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="user">
+										<input type="text" placeholder="Address">
+										<img src="https://img.icons8.com/ios-filled/18/b2b2b2/marker.png" style="position: absolute;" class="position">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<h2>My Order</h2>
+							<div class="row prdt-dtl">
+								<div class="col-lg-5 col-md-6 col-sm-6 col-12">
+									<div class="media">
+										<img src="img/prdt-img.jpg" class="img-fluid" alt="">
+										<div class="media-body ml-2">
+											<h4>Netting Mykonos <br>
+											Tunic Dress</h4>
+											<h5>By: Milly Thomas</h5>
+											<p>Size: s Qty: 1    <b>Rs. 1250</b></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="status">
+										<p>Status</p>
+										<h5>In - Transit</h5>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="delivery">
+										<p>Delivery Expected by:</p>
+										<h5>24 December 2021</h5>
+									</div>
+								</div>
+							</div>
+							<div class="row prdt-dtl">
+								<div class="col-lg-5 col-md-6 col-sm-6 col-12">
+									<div class="media">
+										<img src="img/prdt-img.jpg" class="img-fluid" alt="">
+										<div class="media-body ml-2">
+											<h4>Netting Mykonos <br>
+											Tunic Dress</h4>
+											<h5>By: Milly Thomas</h5>
+											<p>Size: s Qty: 1    <b>Rs. 1250</b></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="status">
+										<p>Status</p>
+										<h5>In - Transit</h5>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="delivery">
+										<p>Delivery Expected by:</p>
+										<h5>24 December 2021</h5>
+									</div>
+								</div>
+							</div>
+							<div class="row prdt-dtl">
+								<div class="col-lg-5 col-md-6 col-sm-6 col-12">
+									<div class="media">
+										<img src="img/prdt-img.jpg" class="img-fluid" alt="">
+										<div class="media-body ml-2">
+											<h4>Netting Mykonos <br>
+											Tunic Dress</h4>
+											<h5>By: Milly Thomas</h5>
+											<p>Size: s Qty: 1    <b>Rs. 1250</b></p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="status">
+										<p>Status</p>
+										<h5>In - Transit</h5>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-3 col-12">
+									<div class="delivery">
+										<p>Delivery Expected by:</p>
+										<h5>24 December 2021</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                             <h3>Comming Soon...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="section-padding">
+		<div class="container">
+			<div class="row" style="padding-bottom: 80px;">
+				<div class="col-md-4 pl-md-0 pr-lg-5 about">
+					<h3 class="bl">ABOUT</h3>
+					<p class="mt-4">Thank you for visiting my website and I very much hope that you have found what you were looking for.</p>
+					<ul class="list-unstyled social">
+						<li class="d-inline-block"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+						<li class="d-inline-block mx-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+						<li class="d-inline-block"><a href=""><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 mt-3 mt-md-0 ml-lg-5 mr-lg-4">
+					<h3>INTERESTING PAGES</h3>					
+					<ul class="list-unstyled link">
+						<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+						<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+						<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+						<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 pl-lg-5 blog">
+					<h3>THE LATEST BLOG POSTS</h3>
+					<div class="media mt-5">
+						<img src="img/pancil.jpg" class="mr-3" >
+						<div class="media-body">
+							<h5 class="mt-0">Lorem Ipsum is simply dummy text of the printing</h5>
+							17/11/2020
+						</div>
+					</div>
+					<div class="media mt-3">
+						<img src="img/pancil.jpg" class="mr-3" >
+						<div class="media-body">
+							<h5 class="mt-0">Lorem Ipsum is simply dummy text of the printing</h5>
+							17/11/2020
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	<section>
+		<div class="footer-bar">
+			<div class="container">
+				<p class="text-center mb-0">&#169; COPYRIGHT 2020. ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+	<script>
+		$('.product-carousel').owlCarousel({
+			loop:true,
+			nav:false,
+			margin:10,
+			autoPlay: true,
+			dots:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+		$('.product-carousel2').owlCarousel({
+			loop:true,
+			nav:false,
+			margin:10,
+			autoPlay: true,
+			dots:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+		$('.product-carousel3').owlCarousel({
+			loop:true,
+			nav:false,
+			margin:10,
+			autoPlay: true,
+			dots:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+		$('.product-carousel4').owlCarousel({
+			loop:true,
+			nav:false,
+			margin:10,
+			autoPlay: true,
+			dots:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+
+		$(document).ready(function(){
+
+			var highestBox = 0;
+			$('.login-sec .login2').each(function(){  
+				if($(this).height() > highestBox){  
+					highestBox = $(this).height();  
+				}
+			});    
+			$('.login-sec .login2').height(highestBox);
+
+		});
+
+
+		const activeImage = document.querySelector(".product-image .active");
+		const productImages = document.querySelectorAll(".product-thumb img");
+		function changeImage(e) {
+			activeImage.src = e.target.src;
+		}
+		productImages.forEach((image) => image.addEventListener("click", changeImage));
+
+	</script>
+</body>
+</html>

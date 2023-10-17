@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home | Maharaja's Furniture</title>
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/responsive.css">	
+	<link rel="stylesheet" href="css/ddsmoothmenu.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="py-3 shadow">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-3 col-6">
+					<div class="logo">
+						<img src="img/logo.png" class="img-fluid" alt="logo">
+					</div>
+				</div>
+				<div class="col-md-2 col-6 pl-3  ml-auto">
+					<div class="cart d-inline-block">
+						<a href="" class="mx-md-5 mx-2 crt">
+							<img src="img/cart.png" alt="">
+						</a>
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<li><a href="">Home</a></li>
+								<li><a href="">About </a></li>
+								<li><a href="">Product</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="address">
+						<h5 class="pl-4">Checkout</h5>
+						<h3>Billing & Shiping</h3>
+						<div class="address-heading">
+							<p class="mb-0 text-white"><span>1</span>  Delivery Address</p>
+						</div>
+						<div class="main-add">
+							<input type="radio" id="home" name="address" value="home">
+							<label for="home">Dinesh Yadav <span class="mx-3">Home</span> 0123456789</label>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus, magna at.</p>
+							<button>Deliery Here</button>
+						</div>
+						<div class="main-add2 shadow-sm">
+							<input type="radio" id="work" name="address" value="work">
+							<label for="work">Dinesh Yadav <span class="mx-3">Work</span> 0123456789</label>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus, magna at.</p>
+						</div>
+					</div>
+					<div class="add-address shadow-sm">
+						<a href=""><i class="fas fa-plus mr-3 text-danger"></i>Add a New Address</a>
+					</div>
+					<div class="row">
+						<div class="col-md-9">
+							<div class="fill-address">
+								<form>
+									<div class="form-group">
+										<label for="Country">Country/ Region <sup class="text-danger">*</sup></label>
+										<select class="form-control" id="Country">
+											<option>Select a cuntry region</option>
+											<option>India</option>
+											<option>USA</option>
+											<option>UK</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="Street">Street address <sup class="text-danger">*</sup></label>
+										<input type="text" class="form-control" id="Street" aria-describedby="emailHelp" placeholder="House number and street name">
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" id="Street" aria-describedby="emailHelp" placeholder="House number and street name">
+									</div>
+									<div class="form-group">
+										<label for="Town">Town / City <sup class="text-danger">*</sup></label>
+										<input type="text" class="form-control" id="Town" aria-describedby="emailHelp" placeholder="">
+									</div>
+									<div class="form-group">
+										<label for="State">State <sup class="text-danger">*</sup></label>
+										<input type="text" class="form-control" id="State" aria-describedby="emailHelp" placeholder="select an option">
+									</div>
+									<div class="form-group">
+										<label for="ZIP">ZIP <sup class="text-danger">*</sup></label>
+										<input type="text" class="form-control" id="ZIP" aria-describedby="emailHelp" placeholder="select an option">
+									</div>
+									<div class="form-group">
+										<label for="Phone">Phone <sup class="text-danger">*</sup></label>
+										<input type="text" class="form-control" id="Phone" aria-describedby="emailHelp" placeholder="select an option">
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										<label class="form-check-label" for="exampleRadios1">Check Payments</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+										<label class="form-check-label" for="exampleRadios2">Cash on delivery</label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 pl-5 mt-5 pt-5">
+					<div class="order-dtl">
+						<h3>Your Order</h3>
+						<div class="row mt-4">
+							<div class="col-6">
+								<h5>Total Items</h5>
+							</div>
+							<div class="col-6">
+								<p>5</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<h5>Subtotal</h5>
+							</div>
+							<div class="col-6">
+								<p>%60.00</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<h5>Shipping</h5>
+							</div>
+							<div class="col-6">
+								<p>Shipping</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-6">
+								<h5>Total</h5>
+							</div>
+							<div class="col-6">
+								<h5>$820.00</h5>
+							</div>
+						</div>
+						<div class="payment-type">
+							<div class="row  align-items-end">
+								<div class="col-md-9">
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+										<label class="form-check-label" for="exampleRadios1">Check Payments</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+										<label class="form-check-label" for="exampleRadios2">Cash on delivery</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+										<label class="form-check-label" for="exampleRadios2">PayPal What is <span class="text-danger">PayPal?</span></label>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<img src="img/payment.png" alt="">
+								</div>
+							</div>
+							<div class="row">
+								<p>Pay via PayPal; you can pay with your creadit if you dont have a PayPal account</p>
+								<p>Your personal data will be used to process your order, support experience throughout this website, and for other purposes described in our <span class="text-danger">privecy policy</span></p>
+							</div>
+							<div class="proceed-btn">
+								<a href="">proceed to Paypal</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="section-padding">
+			<div class="container">
+				<div class="row" style="padding-bottom: 80px;">
+					<div class="col-md-4 pl-md-0 pr-lg-5 about">
+						<h3 class="bl">ABOUT</h3>
+						<p class="mt-4">Thank you for visiting my website and I very much hope that you have found what you were looking for.</p>
+						<ul class="list-unstyled social">
+							<li class="d-inline-block"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+							<li class="d-inline-block mx-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+							<li class="d-inline-block"><a href=""><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 mt-3 mt-md-0 ml-lg-5 mr-lg-4">
+						<h3>INTERESTING PAGES</h3>					
+						<ul class="list-unstyled link">
+							<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+							<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+							<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+							<li class="py-1"><i class="fas fa-chevron-right mr-3 "></i><a href="">Pages</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 pl-lg-5 blog">
+						<h3>THE LATEST BLOG POSTS</h3>
+						<div class="media mt-5">
+							<img src="img/pancil.jpg" class="mr-3" >
+							<div class="media-body">
+								<h5 class="mt-0">Lorem Ipsum is simply dummy text of the printing</h5>
+								17/11/2020
+							</div>
+						</div>
+						<div class="media mt-3">
+							<img src="img/pancil.jpg" class="mr-3" >
+							<div class="media-body">
+								<h5 class="mt-0">Lorem Ipsum is simply dummy text of the printing</h5>
+								17/11/2020
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</footer>
+		<section>
+			<div class="footer-bar">
+				<div class="container">
+					<p class="text-center mb-0">&#169; COPYRIGHT 2020. ALL RIGHTS RESERVED.</p>
+				</div>
+			</div>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+		<script>
+			$('.product-carousel').owlCarousel({
+				loop:true,
+				nav:false,
+				margin:10,
+				autoPlay: true,
+				dots:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
+			});
+			$('.product-carousel2').owlCarousel({
+				loop:true,
+				nav:false,
+				margin:10,
+				autoPlay: true,
+				dots:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
+			});
+			$('.product-carousel3').owlCarousel({
+				loop:true,
+				nav:false,
+				margin:10,
+				autoPlay: true,
+				dots:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
+			});
+			$('.product-carousel4').owlCarousel({
+				loop:true,
+				nav:false,
+				margin:10,
+				autoPlay: true,
+				dots:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
+			});
+
+			$(document).ready(function(){
+
+				var highestBox = 0;
+				$('.login-sec .login2').each(function(){  
+					if($(this).height() > highestBox){  
+						highestBox = $(this).height();  
+					}
+				});    
+				$('.login-sec .login2').height(highestBox);
+
+			});
+
+
+			const activeImage = document.querySelector(".product-image .active");
+			const productImages = document.querySelectorAll(".product-thumb img");
+			function changeImage(e) {
+				activeImage.src = e.target.src;
+			}
+			productImages.forEach((image) => image.addEventListener("click", changeImage));
+
+		</script>
+	</body>
+	</html>

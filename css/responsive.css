@@ -1,0 +1,539 @@
+
+/* -------------------responsive -------------------- */
+
+@media only screen and (min-width: 320px) and (max-width:479px) {
+#menu{
+	right: -240px!important
+}
+
+#menuToggle{
+	left: 110px;
+}
+
+.product{
+	padding-top:0px!important;
+}
+
+.discount-bg h3{
+	font-size: 25px;
+}
+
+#menuToggle span{
+	width: 31px;
+}
+
+.category figure.first figcaption h3{
+	font-size: 25px;
+}
+
+.category figure.first figcaption{
+	top: 30px!important;
+}
+
+.section-heading h3 {
+    font-size: 26px;
+}
+
+.discount-bg{
+	text-align: center;
+}
+
+footer .col-md-3{
+	margin: 50px 0!important;
+}
+
+.footer-bar {
+    margin-top: 15px;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer p {
+    color: #787878;
+    font-size: 15px;
+}
+
+#home{
+	width: 100%!important;
+}
+
+.blog h3::after {
+    left: 15px;
+}
+
+/* ---------single page ------------ */
+
+   main .container .product-main .product-content .product-media{
+   	margin-right: 0px;
+   }
+
+
+.single {
+    padding: 40px 0;
+}
+
+.product-detail {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.row.dtl p {
+    text-align: justify;
+}
+
+.quantity input {
+    width: 100%;
+}
+
+.cart-btn{
+	margin-left: auto;
+}
+
+.tabs .nav-tabs .nav-item .nav-link{
+	padding: 9px;
+}
+
+.tab-content p {
+    text-align: justify;
+}
+
+.section-heading h4{
+	font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none
+      margin: 0;
+    }
+
+/* ---------------------login page--------------------------------- */
+
+.login, .signup {
+    padding: 30px 15px;
+}
+
+.login-content, .signup-content {
+    padding: 40px 20px;
+}
+
+.forget .col-md-7 .form-group {
+    margin-left:0px;
+}
+
+.forget{
+	text-align: left;
+}
+
+/* ----------------------user page---------------------------- */
+
+.user .profile{
+	padding: 0;
+}
+
+.user .tab-pane h3{
+	text-align: center;
+}
+
+.user .nav-pills{
+	border: 0px;
+}
+
+.user .tab-content{
+	padding-bottom: 30px;
+}
+
+.row.prdt-dtl {
+    width: 240px;
+    margin: 20px auto;
+}
+
+
+/* -------------------------cart page------------------------------ */
+
+.col-md-4.col-sm-4.col-6.bls {
+    display: contents;
+}
+
+.crt-btn button{
+	font-size: 14px;
+}
+
+.cart-dtl{
+	margin: 10px;
+}
+
+ }
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+   
+   #menuToggle {
+   	left: 180px;
+   }
+
+   .cart {
+    margin-left: 70px;
+}
+
+.category img{
+	width: 100%!important;
+	padding: 5px;
+}
+
+.section-heading h3, .discount-bg h3{
+	font-size: 20px;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer h3::after{
+	top: 60px;
+}
+
+.blog h3::after {
+    left: 20px;
+}
+
+.footer-bar{
+	margin-top: 10px;
+}
+
+.category figcaption{
+	left: 30px;
+	font-size: 20px;
+}
+
+.category figure.first figcaption h3{
+	font-size: 25px;
+}
+
+#menu{
+	right: -200px;
+}
+
+
+/* --------------single product---------------- */
+
+.single {
+    padding: 50px 0;
+}
+
+main .container .product-main .product-content .product-media{
+	margin-right: 0;
+}
+
+.product-detail h3{
+	margin-top: 50px;
+}
+
+.tab-content p{
+	text-align: justify;
+}
+
+/* -------------------login page--------------------- */
+
+.login,.signup {
+    padding: 80px 25px;
+ }
+
+.login-content, .signup-content {
+    padding: 70px 50px;
+}
+
+.forget .col-md-7 .form-group {
+    margin-left:0px;
+}
+
+.forget{
+	text-align: left;
+}
+
+/* ----------------------user page---------------------------- */
+
+.user .tab-content{
+	padding-bottom:60px;
+}
+
+#home{
+	width: 100%!important;
+}
+
+.profile input{
+	font-size: 12px;
+}
+
+.row.prdt-dtl {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.prdt-dtl{
+	margin: 20px 0;
+}
+
+.status, .delivery {
+    margin: 10px;
+    text-align: center;
+}
+
+.status p, .delivery p {
+    text-align: center;
+}
+
+
+}
+
+ @media only screen and (min-width: 480px) and (max-width:575px) {
+
+.row.prdt-dtl {
+    width: 60%!important;
+    margin: 20px auto;
+}
+
+ }
+
+
+ @media only screen and (min-width: 768px) and (max-width:991px) {
+#menu{
+	right: -183px!important
+}
+
+.category figure.first figcaption h3{
+	font-size: 16px!important;
+}
+
+#menuToggle{
+	left: 85px;
+}
+
+.category figcaption{
+	top: 16px;
+	left: 33px;
+	font-size: 16px;
+}
+
+  .cart {
+    margin-left:-50px;
+}
+
+.category figure.first figcaption {
+    top: 30px!important;
+}
+
+.section-heading h3{
+	font-size: 28px;
+}
+
+.discount-bg h3{
+	font-size: 30px;
+}
+
+
+
+footer h3 {
+    font-size: 15px;
+    margin-left: -13px!important;
+}
+
+.footer-bar{
+	margin-top: 25px;
+}
+
+footer .bl{
+	margin-left: 0px!important;
+}
+
+footer h3:first-child::after{
+	left: 0px;
+}
+
+footer h3::after {
+    top: 30px;
+}
+
+main .container .product-main .product-content .product-media{
+	margin-right: 20px;
+}
+
+.single {
+    padding: 70px 0;
+}
+
+/* -----------------------login page----------------------------- */
+
+.login, .signup {
+    padding: 70px 150px;
+}
+
+.signup-content,.login-content {
+    padding: 70px 20px;
+}
+
+.forget .col-md-7 .form-group {
+    margin-left: -40px;
+}
+
+#home{
+	width: 100%!important;
+}
+
+.row.prdt-dtl{
+	margin-left: 0px!important;
+}
+
+.profile input{
+	font-size: 13px;
+}
+
+.crt-btn button{
+	width: 50%;
+}
+
+ }
+
+
+  @media only screen and (min-width:992px) and (max-width:1366px) {
+#menu{
+	right: -230px!important
+}
+
+#menuToggle{
+	left:129px;
+}
+
+#menuToggle span{
+	width: 30px;
+}
+
+
+.blog h3{
+	margin-left: -5px;
+}
+
+#menuToggle span:nth-child(5) {
+    width: 22px;
+}
+
+.category figure.first figcaption h3{
+	font-size:27px;
+}
+
+.category figcaption{
+	top: 16px;
+	left: 33px;
+	font-size: 20px;
+	width: 80%;
+}
+
+.section-heading h3 {
+    font-size: 26px;
+}
+
+.more-btn a{
+	font-size: 14px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	margin: 5px 3px!important;
+}
+
+.shop-btn{
+	margin-top: 27px;
+}
+
+.about h3::after{
+	left: 0;
+}
+
+.cart {
+    margin-left: -15px;
+}
+
+.discount-bg h3{
+	font-size: 35px;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+footer h3::after {
+    top: 35px;
+}
+
+.product-caption.text-center {
+    margin-top: 30px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 0px;
+ }
+
+/* -----------------------login page------------------------- */
+
+.login, .signup {
+    padding: 60px 30px;
+}
+
+.signup-content, .login-content {
+    padding: 70px 25px;
+}
+
+.forget .col-md-7 .form-group {
+    margin-left: -60px;
+}
+
+/* -------------------cart page------------------ */
+
+.crt-btn button{
+	font-size: 14px;
+}
+
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1366px) {
+
+.login, .signup {
+    padding: 60px 80px;
+}
+
+}
+
+ @media only screen and (min-width:1367px) and (max-width:1600px) {
+
+.category figure.first figcaption h3{
+	font-size: 34px;
+}
+
+.category figcaption{
+	font-size: 27px;
+}
+
+.login, .signup {
+    padding: 110px 85px;
+}
+
+ }
+
+@media only screen and (min-width:1601px) and (max-width:1920px) {
+
+.signup {
+    padding: 170px 130px;
+}
+
+.login{
+	padding: 150px 130px;
+}
+
+}
